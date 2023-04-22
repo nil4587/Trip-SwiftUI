@@ -8,10 +8,20 @@
 import SwiftUI
 
 struct AppInfoView: View {
+    
+    //MARK: - Body
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack(alignment: .leading, spacing: 10) {
+            RowAppInfoView(keyTitle: "Application", keyValue: "Trip")
+            RowAppInfoView(keyTitle: "Platforms", keyValue: "iPhone, iPad")
+            RowAppInfoView(keyTitle: "Developer", keyValue: "iOS Developer")
+            RowAppInfoView(keyTitle: "Version", keyValue: "1.0.0")
+        }
     }
 }
+
+//MARK: - Preview
 
 struct AppInfoView_Previews: PreviewProvider {
     static var previews: some View {

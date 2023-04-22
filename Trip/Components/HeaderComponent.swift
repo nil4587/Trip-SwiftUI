@@ -8,13 +8,29 @@
 import SwiftUI
 
 struct HeaderComponent: View {
+    
+    //MARK: - Body
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack(alignment: .center, spacing: 20) {
+            Capsule()
+                .frame(width: 120, height: 6)
+                .foregroundColor(.secondary)
+                .opacity(0.2)
+                        
+            Image("trip")
+                .resizable()
+                .scaledToFit()
+                .frame(maxHeight: 50)
+        }
     }
 }
+
+//MARK: - Preview
 
 struct HeaderComponent_Previews: PreviewProvider {
     static var previews: some View {
         HeaderComponent()
+            .previewLayout(.fixed(width: 375, height: 150))
     }
 }

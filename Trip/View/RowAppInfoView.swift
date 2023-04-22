@@ -8,13 +8,32 @@
 import SwiftUI
 
 struct RowAppInfoView: View {
+    
+    //MARK: - Properties
+    
+    var keyTitle: String
+    var keyValue: String
+    
+    //MARK: - Body
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            HStack {
+                Text(keyTitle)
+                    .foregroundColor(.gray)
+                Spacer()
+                Text(keyValue)
+            }
+            
+            Divider()
+        }
     }
 }
 
+//MARK: - Preview
+
 struct RowAppInfoView_Previews: PreviewProvider {
     static var previews: some View {
-        RowAppInfoView()
+        RowAppInfoView(keyTitle: "Application", keyValue: "Trip")
     }
 }

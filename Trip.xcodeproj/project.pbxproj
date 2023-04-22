@@ -11,6 +11,24 @@
 		DE255C3229F41F27006A54DE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE255C3129F41F27006A54DE /* ContentView.swift */; };
 		DE255C3429F41F28006A54DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE255C3329F41F28006A54DE /* Assets.xcassets */; };
 		DE255C3729F41F28006A54DE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE255C3629F41F28006A54DE /* Preview Assets.xcassets */; };
+		DE255C4029F42708006A54DE /* sound-rise.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DE255C3E29F42708006A54DE /* sound-rise.mp3 */; };
+		DE255C4129F42708006A54DE /* sound-click.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DE255C3F29F42708006A54DE /* sound-click.mp3 */; };
+		DE255C4329F42763006A54DE /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE255C4229F42763006A54DE /* Launch Screen.storyboard */; };
+		DE255C4629F42B6D006A54DE /* TripModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE255C4529F42B6D006A54DE /* TripModel.swift */; };
+		DE255C4929F42BC5006A54DE /* TripData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE255C4829F42BC5006A54DE /* TripData.swift */; };
+		DE255C4C29F42C32006A54DE /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE255C4B29F42C32006A54DE /* CardView.swift */; };
+		DE255C4E29F42F71006A54DE /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE255C4D29F42F71006A54DE /* HeaderView.swift */; };
+		DE255C5029F431A6006A54DE /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE255C4F29F431A6006A54DE /* FooterView.swift */; };
+		DE255C5329F433AE006A54DE /* HeaderComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE255C5229F433AE006A54DE /* HeaderComponent.swift */; };
+		DE255C5529F436F4006A54DE /* GuideComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE255C5429F436F4006A54DE /* GuideComponent.swift */; };
+		DE255C5729F43848006A54DE /* GuideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE255C5629F43848006A54DE /* GuideView.swift */; };
+		DE255C5929F459E5006A54DE /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE255C5829F459E5006A54DE /* InfoView.swift */; };
+		DE255C5B29F45ACE006A54DE /* Modifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE255C5A29F45ACE006A54DE /* Modifiers.swift */; };
+		DE255C5D29F45C8A006A54DE /* AppInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE255C5C29F45C8A006A54DE /* AppInfoView.swift */; };
+		DE255C5F29F45D04006A54DE /* RowAppInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE255C5E29F45D04006A54DE /* RowAppInfoView.swift */; };
+		DE255C6129F45E41006A54DE /* CreditsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE255C6029F45E41006A54DE /* CreditsView.swift */; };
+		DE255C6429F46F3D006A54DE /* CardTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE255C6329F46F3D006A54DE /* CardTransition.swift */; };
+		DE255C6629F470C6006A54DE /* PlaySound.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE255C6529F470C6006A54DE /* PlaySound.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +37,24 @@
 		DE255C3129F41F27006A54DE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DE255C3329F41F28006A54DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE255C3629F41F28006A54DE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DE255C3E29F42708006A54DE /* sound-rise.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-rise.mp3"; sourceTree = "<group>"; };
+		DE255C3F29F42708006A54DE /* sound-click.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-click.mp3"; sourceTree = "<group>"; };
+		DE255C4229F42763006A54DE /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		DE255C4529F42B6D006A54DE /* TripModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripModel.swift; sourceTree = "<group>"; };
+		DE255C4829F42BC5006A54DE /* TripData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripData.swift; sourceTree = "<group>"; };
+		DE255C4B29F42C32006A54DE /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		DE255C4D29F42F71006A54DE /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		DE255C4F29F431A6006A54DE /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
+		DE255C5229F433AE006A54DE /* HeaderComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderComponent.swift; sourceTree = "<group>"; };
+		DE255C5429F436F4006A54DE /* GuideComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideComponent.swift; sourceTree = "<group>"; };
+		DE255C5629F43848006A54DE /* GuideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideView.swift; sourceTree = "<group>"; };
+		DE255C5829F459E5006A54DE /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		DE255C5A29F45ACE006A54DE /* Modifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modifiers.swift; sourceTree = "<group>"; };
+		DE255C5C29F45C8A006A54DE /* AppInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInfoView.swift; sourceTree = "<group>"; };
+		DE255C5E29F45D04006A54DE /* RowAppInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowAppInfoView.swift; sourceTree = "<group>"; };
+		DE255C6029F45E41006A54DE /* CreditsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditsView.swift; sourceTree = "<group>"; };
+		DE255C6329F46F3D006A54DE /* CardTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardTransition.swift; sourceTree = "<group>"; };
+		DE255C6529F470C6006A54DE /* PlaySound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySound.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +87,14 @@
 		DE255C2E29F41F27006A54DE /* Trip */ = {
 			isa = PBXGroup;
 			children = (
+				DE255C6229F46F22006A54DE /* Extensions */,
+				DE255C5129F4339B006A54DE /* Components */,
+				DE255C4429F42B61006A54DE /* Model */,
+				DE255C4A29F42C1B006A54DE /* View */,
+				DE255C4729F42BBB006A54DE /* Helpers */,
+				DE255C3D29F42708006A54DE /* Sounds */,
 				DE255C2F29F41F27006A54DE /* TripApp.swift */,
-				DE255C3129F41F27006A54DE /* ContentView.swift */,
+				DE255C4229F42763006A54DE /* Launch Screen.storyboard */,
 				DE255C3329F41F28006A54DE /* Assets.xcassets */,
 				DE255C3529F41F28006A54DE /* Preview Content */,
 			);
@@ -65,6 +107,66 @@
 				DE255C3629F41F28006A54DE /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DE255C3D29F42708006A54DE /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				DE255C3E29F42708006A54DE /* sound-rise.mp3 */,
+				DE255C3F29F42708006A54DE /* sound-click.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		DE255C4429F42B61006A54DE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DE255C4529F42B6D006A54DE /* TripModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DE255C4729F42BBB006A54DE /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				DE255C5A29F45ACE006A54DE /* Modifiers.swift */,
+				DE255C4829F42BC5006A54DE /* TripData.swift */,
+				DE255C6529F470C6006A54DE /* PlaySound.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		DE255C4A29F42C1B006A54DE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DE255C3129F41F27006A54DE /* ContentView.swift */,
+				DE255C4B29F42C32006A54DE /* CardView.swift */,
+				DE255C4D29F42F71006A54DE /* HeaderView.swift */,
+				DE255C4F29F431A6006A54DE /* FooterView.swift */,
+				DE255C5629F43848006A54DE /* GuideView.swift */,
+				DE255C5829F459E5006A54DE /* InfoView.swift */,
+				DE255C5C29F45C8A006A54DE /* AppInfoView.swift */,
+				DE255C5E29F45D04006A54DE /* RowAppInfoView.swift */,
+				DE255C6029F45E41006A54DE /* CreditsView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DE255C5129F4339B006A54DE /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				DE255C5229F433AE006A54DE /* HeaderComponent.swift */,
+				DE255C5429F436F4006A54DE /* GuideComponent.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		DE255C6229F46F22006A54DE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DE255C6329F46F3D006A54DE /* CardTransition.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,7 +227,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE255C4029F42708006A54DE /* sound-rise.mp3 in Resources */,
+				DE255C4129F42708006A54DE /* sound-click.mp3 in Resources */,
 				DE255C3729F41F28006A54DE /* Preview Assets.xcassets in Resources */,
+				DE255C4329F42763006A54DE /* Launch Screen.storyboard in Resources */,
 				DE255C3429F41F28006A54DE /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +242,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE255C5329F433AE006A54DE /* HeaderComponent.swift in Sources */,
+				DE255C5929F459E5006A54DE /* InfoView.swift in Sources */,
 				DE255C3229F41F27006A54DE /* ContentView.swift in Sources */,
+				DE255C6129F45E41006A54DE /* CreditsView.swift in Sources */,
+				DE255C6429F46F3D006A54DE /* CardTransition.swift in Sources */,
+				DE255C5B29F45ACE006A54DE /* Modifiers.swift in Sources */,
+				DE255C5029F431A6006A54DE /* FooterView.swift in Sources */,
+				DE255C4E29F42F71006A54DE /* HeaderView.swift in Sources */,
 				DE255C3029F41F27006A54DE /* TripApp.swift in Sources */,
+				DE255C4929F42BC5006A54DE /* TripData.swift in Sources */,
+				DE255C4629F42B6D006A54DE /* TripModel.swift in Sources */,
+				DE255C5F29F45D04006A54DE /* RowAppInfoView.swift in Sources */,
+				DE255C5D29F45C8A006A54DE /* AppInfoView.swift in Sources */,
+				DE255C4C29F42C32006A54DE /* CardView.swift in Sources */,
+				DE255C5529F436F4006A54DE /* GuideComponent.swift in Sources */,
+				DE255C5729F43848006A54DE /* GuideView.swift in Sources */,
+				DE255C6629F470C6006A54DE /* PlaySound.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,11 +389,13 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Trip/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Trip;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.travel";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -281,6 +403,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.company.Trip;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -297,11 +422,13 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Trip/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Trip;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.travel";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,6 +436,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.company.Trip;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

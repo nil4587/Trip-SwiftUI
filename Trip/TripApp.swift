@@ -9,6 +9,9 @@ import SwiftUI
 
 @main
 struct TripApp: App {
+    
+    //MARK: - Body
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
